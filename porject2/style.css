@@ -1,0 +1,135 @@
+:root{
+    --main--color: linear-gradient(to right, #01022d,rgb(31, 30, 30));
+}
+
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+body{
+    background-image: var(--main--color) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+.container{
+    width: 90%;
+    height: 640px;
+    background-image: linear-gradient(to right,#01022de5 30%,#00000044),
+    url(avatar-2009.jpg);
+    background-position: center;
+    background-image: cover;
+}
+.container:hover{
+    background-image: linear-gradient(to right,#01022de5 30%,transparent),url(avatar-2009.jpg);
+    width: 90%;
+    background-size: cover;
+    background-position: center;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    font-size: 30px;
+    text-transform: uppercase;
+
+}
+
+ul{
+    width: 60%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul a{
+    border-bottom: 2px solid transparent;
+}
+ul a:hover{
+    border-bottom-color: white;
+}
+.content{
+    width: 50%;
+    margin-top: 50px;
+    padding: 30px;
+    color: white;
+}
+.content h2{
+    font-size: 100px;
+    text-transform: uppercase;
+
+}
+.content p{
+    letter-spacing: 3px;
+    width: 50%;
+    padding: 20px 0 20px 0;
+
+}
+
+.content button{
+    font-size: 30px;
+    padding: 6px 10px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    text-transform: uppercase;
+}
+.content button:hover{
+    background-color: transparent;
+    border-color:white ;
+    cursor: pointer;
+    color: white;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+
+.image-section{
+    padding-top: 20px;
+    margin-top: 20px;
+    width: 90%;
+    position: absolute;
+}
+
+h3{
+    text-decoration: double;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    letter-spacing: 3px;
+    margin: 10px;
+    font-size: 50px;
+}
+
+img{
+    width: 20%;
+    padding: 1px;
+    margin: 10px;
+    align-items: center;
+    transition:transform 0.3s ease-in;
+    display: inline;
+}
+img:hover{
+    transform: scale(1.4);
+    border: 2px dashed var(--main--color);
+}
+
+.video-section{
+    margin: 2px;
+    padding: 5px;
+    height: 500px;
+    display: inline;
+}
+.video-section video{
+    width: 90%;
+    display: inline;
+}

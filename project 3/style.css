@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: sans-serif;
+}
+body{
+    background-color: #2f2d2d;
+    display: flex;
+}
+
+.manue{
+    background-color: #2a2939;
+    width: 60px;
+    height: 100vh;
+    padding: 20px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.manue:hover{
+    width: 260px;
+}
+ul{
+    list-style: none;
+    position: relative;
+    height: 99%;
+}
+ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    transition: .5s;
+    
+}
+ul li a:hover, .active{
+    background-color: #aba5a5;
+
+}
+.log-out{
+    position:absolute ;
+    bottom: 0;
+    width: 100%;
+}
+.log-out a{
+    background-color: red;
+}
+ul li a i{
+    font-size: 30px;
+    
+}
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.profile h2{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.img-box{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid white;
+    flex-shrink: 0;
+}
+.img-box img {
+    width: 100%;
+
+}
+.content{
+    width: 100%;
+    margin: 10px;
+
+}
+.title{
+    background-color: #7184f1;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+.data-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+.data-info .box{
+    width: calc(80% /4 );
+    height: 150px;
+    background-color: #363535;
+    flex-basis: 150px;
+    flex-grow: 1;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.data-info .box:hover,td:hover{
+    background-color: #aba5a5;
+}
+
+.data-info .box i{
+    font-size: 40px;
+}
+.data-info .box .data{
+    text-align: center;
+}
+.data-info .box .data span{
+    font-size: 30px;
+}
+table{
+    width: 100%;
+    text-align: center;
+    border-spacing:7px ;
+}
+td,th{
+    background-color: #787474;
+    height: 40px;
+    border-radius: 5px;
+}
+th{
+    background-color: #7184f1;
+}
+.price ,.count{
+    padding: 6px;
+    border-radius: 6px;
+
+}
+.price{
+    background-color: azure;
+    color: black    ;
+}
+.count{
+    background-color: bisque;
+    color: black;
+}
+td,th,.title,p{
+    text-transform: capitalize;
+}
