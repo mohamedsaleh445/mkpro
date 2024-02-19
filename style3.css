@@ -1,0 +1,81 @@
+.bar {
+  overflow: hidden;
+  background-color: #8c7373;
+}
+
+.bar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 23px;
+}
+.bar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.bar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+.body{
+    background-image : url("logo.png");
+    padding : 10px;
+    margin : 10px;
+    background-repeat: no-repeat;
+    background-size : 100%;
+    font-size : 32px;
+    align:center;
+}
+.container{
+border : solid black 01px;
+padding : 10px;
+margin : 10px;
+text-align : center;
+
+}
+.container2{
+display : flex;
+flex-direction : row;
+align-items : center;
+border : solid black 01px;
+padding : 5px;
+margin : 5px;
+text-align : left;
+font-size : 20px;
+justify-content :left;
+order : 1;
+}
+.form{
+
+padding : 10px;
+margin : 10px;
+}
+
+.in{
+font-size: 20px;
+padding : 10px;
+margin : 10px;
+width : 70%;
+}
+button {
+    background: #f2eae9;
+    font-size : 23px;
+    height:190px;
+    font-color:red;
+    border:5px groove blue;
+    border-radius:50px;
+    position:absolute;
+    margin-top:150px;
+}
+#slider{
+margin:20px;
+padding:10px;
+}
+
+footer{
+position:static;
+text-align:center;
+}

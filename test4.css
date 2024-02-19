@@ -1,0 +1,65 @@
+.mi{
+    display: flex;
+
+}
+
+.mii{
+    border: 2px dotted red;
+    margin: .5%;
+    padding: 4%;
+    margin-left: 5%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    background-color: aqua;
+    border-radius: 20%;
+
+}
+
+.miii{
+    border: 2px dotted red;
+    margin: .5%;
+    padding: 4%;
+    margin-right: 10%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    background-color: aquamarine;
+    border-radius: 20%;
+}
+.mi2{
+    display: flex;
+}
+
+.mii2{
+    border: 2px dotted red;
+    margin: .5%;
+    padding: 4%;
+    margin-right: 5%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    background-color: aqua;
+    border-radius: 20%;
+
+
+}
+.miii2{
+    border: 2px dotted red;
+    margin: .5%;
+    padding: 4%;
+    margin-left: 4%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    background-color: aquamarine;
+    border-radius: 20%;
+
+}
+
+
+...container{
+    display: flex;
+    background-image: linear-gradient(to right ,rgb(219, 190, 190),rgb(158, 158, 218))   ;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+    padding: 2px;
+    border: 2px solid black;
+}

@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+}   
+footer div a {  
+    position: static;
+    font-size: larger;
+    display: flex;
+    margin: 20px;
+    padding-top: 5px;
+    line-height: 1.3;
+}
+
+footer{
+    background: url(./newimg/foot1.jpg);
+    height: 25%;
+}
+
+footer div p{
+    display: flex;
+    position:static;
+    margin-right: 10px;
+    align-items: left;
+    text-align: left; 
+    justify-content: left;
+    line-height: 0px;
+    text-decoration: solid;
+}
+    
+.headleft button{
+    border: none;
+    font-size: 22px;
+    align-items: center;
+    margin: 5px 0px 0px 10px ;
+
+    
+}
+header{
+    display: inline;
+    padding: 10px;
+    margin: 10px;
+}
+header img{
+    display: inline;
+    width: 40px;
+    height: 40px;
+    padding: 0px;
+    margin: 5px 0px 0px 50px ;
+}
+header li{
+    display: inline;
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px 0px 0px 50px ;
+    margin-right: 50px;
+    text-align: right;
+    align-items: right;
+    justify-content: right;
+
+}
+.headright{
+    display: flex;
+    text-align: right;
+    align-items: right;
+    justify-content: right;
+    
+}
+header li :hover{
+    cursor: pointer;
+
+    font-size: 21px;
+    background-color: rgb(195, 181, 181);
+}
+header a{
+    width: 35px;
+    height: 35px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.container div{
+    border: 1px dashed rgb(97, 97, 243);
+    width: 22%;
+    margin: 10px;
+    padding: 10px;
+    font-size: 22px;
+    text-align: center;
+}
+table{
+    background-color: lightgoldenrodyellow;
+    padding: 10px 0px 10px 10px;  
+    margin: 10px 0px 10px 10px;
+    font-size: 25px;
+    border: 1px double rgb(236, 236, 123);
+    width: 98%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+table tbody td{
+    padding: 5px;
+    margin: 5px;
+    border:1px dashed rgb(236, 236, 123);
+}
+table th{
+    background: rgb(170, 167, 167);
+}
+video{
+    width: 100%;
+}
+h1{
+    font-size: 50px;
+    align-items: center;
+    text-align: center;
+}
+
+/*button {
+    background: #f2eae9;
+    font-size : 23px;
+    height:190px;
+    border:5px groove rgb(126, 126, 129);
+    border-radius:50px;
+    position:absolute;
+    margin-top:150px;
+}*/
+
+.motion{
+    display: flex;
+    scale: 1;
+    text-align: center;
+    justify-content: center;
+}
+.motion img{
+    
+    width: 125%;
+    
+    text-align: center;
+    justify-content: center;
+      
+    
+}
+.motion button{
+    display: flex;
+    height: 600px;
+    width: 20px;
+    text-align: center;
+    justify-content: center;
+}
+.left{
+    margin-left: 300px;
+    height: 600px;
+    text-align: center;
+    justify-content: center;
+}
+.right{
+    
+    text-align: center;
+    justify-content: center;
+}
+.top button{
+    position: fixed;
+    bottom : 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background: rgb(74, 112, 112) ;
+    border: none;
+    font-size: 30px;
+    display: none;
+
+}
+.icon{
+    background-color: rgb(74, 112, 112);
+    opacity: 5px;
+    border-radius: 30px;
+    visibility: visible;
+
+}
+.scroll button :hover{
+    background-color: rgb(126, 176, 176);
+
+}
+video{
+    display: flex;
+    position: relative;
+    
+}
+
+.divform{
+    border: 1px solid black;
+    margin-left: 5px;
+    display: inline-flex;
+    height: 400px;
+    width: 99%;
+
+}
+.form{
+    display: inline;
+    margin-left: 20px;
+    width: 75%;
+    
+}
+.form input {
+    width: 95%;
+    height: 40px;
+    margin: 2px;
+    font-size: 19px;
+    border: 1px solid black;
+}
+
+.form textarea {
+    width: 95%;
+    height: 150px;
+    margin: 2px;
+    font-size: 19px;
+    border: 1px solid black;
+}
+.form select{
+    width: 200px;
+    margin: 2px;
+    padding: 2px;
+}
+.formimg{ 
+    display:flex;
+    margin-left: 0px;
+}
+input:focus{
+    scale: 1.02;
+}
+textarea:focus{
+    scale: 1.02;
+}
+
+.mi{
+    display: flex;
+
+}
+
+.mii{
+    border: 2px dotted red;
+    margin: .5%;
+    padding: 4%;
+    margin-left: 5%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    background-color: aqua;
+    border-radius: 20%;
+
+}
+
+.miii{
+    border: 2px dotted red;
+    margin: .5%;
+    padding: 4%;
+    margin-right: 10%;
+    text-align: center;
+    width: 70%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    background-color: aquamarine;
+    border-radius: 20%;
+}
+
+.mii2{
+    border: 2px dotted red;
+    margin: .5%;
+    padding: 4%;
+    margin-right: 5%;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    background-color: aqua;
+    border-radius: 20%;
+
+
+}
+.miii2{
+    border: 2px dotted red;
+    margin: .5%;
+    padding: 4%;
+    text-align: center;
+
+    margin-left: 4%;
+    width: 70%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    background-color: aquamarine;
+    border-radius: 20%;
+
+}
+.container{
+    background-image: linear-gradient(to right ,rgb(219, 190, 190),rgb(158, 158, 218))   ;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+    padding: 2px;
+    border: 2px solid black;
+}
+
+.middlerow{
+    display: flex;
+    width: 95%;
+    margin: 2%;
+    text-decoration: double;
+    border: 1px dotted black;
+    border-radius: 20%;
+    text-align: center;
+    justify-content: center;
+
+
+}
+.middlerow-button{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: none;
+    font-size: 35px;
+    padding: 3%;
+    margin: 3%;
+    width: 25%;
+    text-decoration: double;
+    border: 1px dotted black;
+    border-radius: 20%;
+    text-align: center;
+    justify-content: center;
+}
+.container2{
+    justify-content: center;
+    width: 95%;
+    margin: 2%;
+
+}
+.middlerow :hover{
+    cursor: pointer;
+    background-color: aqua;
+    
+}

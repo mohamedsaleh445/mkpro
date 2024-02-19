@@ -1,0 +1,34 @@
+h1{
+    background-color: blueviolet;
+    font-size:45px;
+    text-align :center;
+}
+
+body{
+font-size : 30px;
+background-color : aqua;
+}
+p{
+text-align:center;
+}
+.form{
+text-align:center;
+
+}
+input{
+font-size : 23px;
+width:200px;
+height:45px;
+padding : 5px;
+margin : 5px;
+text-align:center;
+}
+label{
+width:500px;
+}
+.1{
+width:3000px;
+}
+.form{
+align:center;
+}

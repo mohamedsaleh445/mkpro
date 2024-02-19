@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shop</title>
+    <link rel="stylesheet" href="stylenoval.css">
+</head>
+<body>
+    <div class="crud">
+        <div class="head">
+            <h2>CRUDs</h2>
+            <p>product managment system</p>
+        </div>
+
+
+        <div class="inputs"></div>
+            <input type="text" id="tital" placeholder="tital">
+            <div class="price">
+                <input onkeyup="getTotal()" type="number" placeholder="price" id="price">
+                <input onkeyup="getTotal()" type="number" placeholder="taxes" id="taxes">
+                <input onkeyup="getTotal()" type="number" placeholder="ads" id="ads">
+                <input onkeyup="getTotal()" type="number" placeholder="discount" id="discount">
+                <small id="total"></small>
+
+                <input type="number" placeholder="count" id="count">
+                <input type="text" placeholder="category" id="category">
+                <button id="submit">creat</button>
+
+
+            </div>
+
+
+
+
+
+
+
+
+        <div class="outputs"></div>
+
+        <div class="search">
+            <input onkeyup="searchData(this.value)" type="text" placeholder="search" id="search">
+            <div class="btnsearch">
+                <button onclick="getSearch(this.id)" id="searchTital">search by tital</button>
+                <button onclick="getSearch(this.id)" id="searchCategory">search by categery</button>
+
+            </div>
+            <div id="deleteAll"> 
+                
+            </div>
+            <table>
+                <tr>
+                    <th>id</th>
+                    <th>tital</th>
+                    <th>price</th>
+                    <th>ads</th>
+                    <th>tax</th>
+                    <th>discount</th>
+                    <th>category</th>
+                    <th>total</th>
+                    <th>update</th>
+                    <th>delet</th>
+                </tr>
+                <tbody id="tBody">
+                </tbody>
+            </table>
+
+        </div>
+
+
+
+
+
+
+    </div>
+
+    <script src="indexnoval.js"></script>
+</body>
+</html>

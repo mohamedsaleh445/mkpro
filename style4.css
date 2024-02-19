@@ -1,0 +1,155 @@
+:root{
+    --darkblue :#0e1117;
+    --wite:#ffffff;
+    --gray: #c9d1d9;
+    --darkgray:#8b949e;
+    --blue:#58a6ff;
+    --lightblue :#15223a;
+    --darkerblue:#21262c;
+}
+body{
+
+    background-color: var(--darkblue);
+    font-family: sans-serif;
+}
+.container{
+    max-width: 85%;
+    margin: auto;
+    color: gray;
+}
+.user-card-info{
+    margin-bottom: 20px;
+}
+.user-card-image img{
+    border-radius: 50px;
+    margin-top: -10px;
+    border: 1px solid grey;
+    width:260px ;
+    height: 260px;
+}
+.user-card-info h1{
+    margin-bottom: 0px;
+    
+}
+.user-card-info p{
+    margin-top: 0px;
+    color: var(--gray);
+}
+.user-card-info span{
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+}
+.edit-buttom{
+width: 100%;
+background-color: var(--darkerblue);
+color: var(--wite);
+padding:5px 16px ;
+margin-bottom: 10px;
+cursor: pointer;
+border-radius: 6px;
+border: 1px solid var(--darkerblue);
+
+}
+.user-main-info{
+    display: block;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.user-main-info span,
+.user-main-info a{
+    display: inherit;
+    color: inherit;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+.grid-element{
+    display: grid;
+    gap: 0;
+    grid-template-columns: 1fr 3fr;
+}
+.user-follow-info span::after{
+    content: ".";
+    margin: 0 4px;
+}
+.user-follow-info span:last-child:after{
+    content: "";
+    
+}
+.user-org{
+    border-top: 1px solid var(--darkblue);
+    padding: 10px 0;
+}
+.user-org a{
+    padding: auto;
+}
+
+.nav-user-profile{
+    padding: 10px 0 ;
+    border-bottom:1px solid var(--darkblue);
+}
+.nav-user-profile a{
+    color :var(--gray);
+    text-decoration: none;
+}
+.user-org a img{
+    width: 50px;
+}
+.repo-card{
+    padding: 20px 0 ;
+    display: block;
+    max-width: 70%;
+    border: 1px solid var(--darkerblue);
+}
+.repo-card:last-child{
+    border-bottom:0 ;
+}
+
+.repo-card h3{
+    font-weight: 500;
+    margin: 0;
+    display: flex;
+}
+.repo-card p{
+    margin-top: 5;
+}
+.repo-card p,
+.repo-card span{
+    color: var(--darkgray);
+    font-weight: 400;
+    font-size: 14px;
+}
+.repo-status-label{
+    font-size: 12px;
+    border: 1px solid var(--darkgray);
+    padding: 1px 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.card-topic span{
+    background-color: var(--lightblue);
+    padding: 7px 15px;
+    color: var(--blue);
+    border-radius: 20px;
+    opacity: 0.8;
+    font-size: 12px;
+    margin: 10px 5px 0 0 ;
+    font-weight: bold;
+    cursor: pointer;
+}
+.card-topic span:hover{
+    opacity: 1;
+}
+.card-land-details span{
+    margin-right: 10px;
+}
+
+@media only screen and (max-width : 600px){
+    .grid-element{
+        grid-template-columns: 1fr;
+    }
+    .repo-card{
+        width: 100%;
+    }
+}
