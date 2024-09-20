@@ -2,6 +2,7 @@
     width : 100%;
     margin : 0;
     padding : 0;
+    position : relative;    
 
 }
 
@@ -19,9 +20,9 @@ nav{
 
 .section1{
     background-image : url("/project8/img/3.jpg");
+    background-size : cover;
     height : 700px ;
     width : 100%;
-    align-items :center;
     position : relative;
 }
 
@@ -30,7 +31,7 @@ nav{
     width : 55%;
     position : absolute ;
     background-color :#e6d8d870;
-    height : 530px;
+    height : 100%;
 }
 .section-box h1{
     margin-left : 20px;
@@ -54,10 +55,11 @@ nav{
 
 
 .section2{
-    display : flex;
+    position : relative ;
     width :100%;
     margin-top : 0;
     background-color :#010101cf;
+    display :flex;
 
 }
 
@@ -67,23 +69,121 @@ nav{
     background-image : url("/project8/img/13.jpg");
     width :50%;
     background-size : cover ;
+    position : relative;
 }
 .left{
     font-size : 25px;
     width : 50%;
     text-transform :capitalize;
     color : white;
+    position : relative;
+}
+.left h1{
+    margin-left : 20px;
 }
 .left p{
     width : 50%;
     space : 1.10px;
     color : #ffffff80;
+    margin-left : 20px;
+
 }
 .left button{
     width :40%;
     height : 50px;
     margin : 20px;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     text-transform: capitalize;
+    border-radius : 50px;
   }
+
+.floating {
+
+    height : 400px;
+    width : 400px;
+    position : absolute;
+    margin: 135px 0 0 600px;
+    border : 5px solid black;
+    background-image : url("/project8/img/13.jpg");
+    background-size : cover;
+}
+.section3{
+    background-color : #010101cf;
+    position : relative;
+    width : 100%;
+    padding-bottom : 30px;
+}
+
+.section3 h1 {
+    font-size : 80px;
+    text-transform : uppercase;
+    text-align : center;
+    color : white;
+    margin : 0;
+
+}
+.scroll-image ul {
+    display : flex;
+    align-items : left;
+    justify-content : left;   
+    
+}
+.scroll-image ul li{
+    width : 23%;
+    margin : 3px;
+    border : 1px solid gray;
+    padding-right : 12px;
+
+}
+.scroll-image ul li img{
+    width : 100%;
+    transition : 0.6s;
+}
+
+.scroll-image ul li:hover img{
+    scale : 1.1;
+}
+
+.section4{
+    position : relative;
+    background-image : url("/project8/img/9.jpg");
+    background-image :no-repeat;
+    background-size : cover;
+    height : 700px ;
+    width : 100%;
+    align-items :center;
+    margin-top: -16px;
+
+}
+
+.section-box2{
+    padding-top : 0;
+    width : 45%;
+    background-color :#e6d8d8a8;
+    height : 700px;
+    float : right;
+    text-align : center;
+
+
+}
+.section4 .overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1a191963;
+}
+
+.section-box2 h1{
+    margin-left : 20px;
+    padding-top : 100px;
+    font-size : 70px;
+    text-transform : capitalize;
+
+}
+.section-box2 h3{
+    margin-left : 20px;
+    width :80%;
+}
