@@ -12,7 +12,7 @@
 }
 
 .main-head{
-    background-image : url("/img/drew-coffman-1872.jpg");
+    background-image : url("/project9/img/drew-coffman-1872.jpg");
     height : 1000px; 
     width : 100%;
     background-size : cover;
@@ -87,7 +87,7 @@
     width : 40%;
     height : 70%;
     float : left;
-    background-image : url("/img/alexandru-stavrica-170390-800x760.jpg");
+    background-image : url("/project9/img/alexandru-stavrica-170390-800x760.jpg");
     background-size : cover;
     margin-left: 100px;
 
@@ -126,7 +126,7 @@
 
 }
 .right-image2{
-    background-image : url("/img/full-2-800x640.jpg");
+    background-image : url("/project9/img/full-2-800x640.jpg");
     width : 40%;
     height : 70%;
     float : right;
@@ -191,7 +191,7 @@ margin-top : 20px;
 
 
 .right-image3{
-    background-image : url("/img/drew-coffman-1872.jpg");
+    background-image : url("/project9/img/drew-coffman-1872.jpg");
     width : 40%;
     height : 70%;
     float : right;
