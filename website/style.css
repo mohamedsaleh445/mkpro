@@ -1,0 +1,22 @@
+@media (min-width : 768px){
+    .news-inbut{
+        width: 50%;
+    }
+}
+@media (max-width : 580px){
+    .bigmab{
+        display: none;
+    }
+}
+body::before{
+    display: block;
+    content: "";
+    height: 60px;
+
+}
+html {
+    scroll-behavior: smooth;
+}
+.lings{
+    scroll-behavior: smooth;
+}
