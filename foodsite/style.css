@@ -1,0 +1,359 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
+
+
+
+*,
+*:after,
+*:before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:active,
+:hover,
+:focus{
+    outline: 0 !important;
+    outline-offset: 0;
+}
+a,
+a:hover{
+    text-decoration: none;
+}
+a:hover{
+    color: var(--primery-color) !important;
+}
+ul,
+ol{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --primery-color : #A82c48;
+    --secondry-color :#43121d;
+    --third-color : #f98169;
+    --white-color : #fff;
+    --text-color : #555;
+    --text-gray : #999;
+    --black-color:#000;
+    --primary-font : 'Roboto',sans-serif;
+    --secondry-font : 'Quicksand',sans-serif;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: var(--primary-font);
+    font-size: 100%;
+    font-weight: 400;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 3rem;
+    color: var(--secondry-color);
+}
+h2{
+    font-weight: 700;
+    font-size: 2.25rem;
+    text-transform: capitalize;
+    font-family: var(--secondry-font);
+    color: var(--secondry-color);
+    line-height: 3rem;
+}
+h5{
+    color: var(--primery-color);
+    text-transform: capitalize;
+    font-family: var(--secondry-font);
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.main-btn{
+    display: inline-block;
+    padding: 0.625rem 1.875rem;
+    line-height: 1.56rem;
+    background-color: var(--primery-color);
+    border: 0.18rem solid var(--primery-color);
+    color: var(--white-color);
+    font-size: .9rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    transition: all .4s ease-out 0s;
+    box-shadow: 3px 3px rgb(233, 228, 228);
+
+}
+.main-btn:hover{
+    background-color: transparent;
+    color: var(--primery-color);
+}
+.white-btn{
+    padding: 0.6rem 1.8rem;
+    line-height: 25px;
+    background-color: var(--white-color);
+    border: 0.18rem solid var(--white-color);
+    color: var(--text-color);
+    font-size: 0.93rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    transition: all .4s ease-out 0s;
+    box-shadow: 3px 3px rgb(233, 228, 228);
+}
+.white-btn:hover{
+    background-color: transparent;
+    color: var(--primery-color);
+    border-color: var(--primery-color);
+
+}
+.wrapper{
+    padding-top: 8.25rem;
+    padding-bottom: 8.25rem;
+}
+
+.text-content{
+    width: 70%;
+    margin: auto;
+}
+.counter-section h2,
+.textimonial-section h2,
+.book-food-tex h2{
+    color: var(--white-color);
+}
+.navigation-wrap{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    z-index: 1000;
+    transition: all .3s ease-out ;
+}
+
+.navigation-wrap .nav-item{
+    padding: 0 0.625rem;
+    transition: all 200ms linear;
+}
+.navbar-toggler:focus{
+    outline: unset;
+    border: unset;
+    box-shadow: none;
+}
+.nav-link{
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    color: var(--primery-color) !important;
+}
+.navigation-wrap .main-btn{
+    padding: 0.31rem 1.43rem;
+    box-shadow: none;
+    margin-left: 0.625rem;
+}
+.navigation-wrap.scroll-on{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: var(--white-color);
+    box-shadow: 0 0.125rem 1.75rem 0 rgb(0, 0, 0,0.09);
+    transition: all .15s ease-in-out 0s;
+}
+
+
+.top-banner{
+    background: url(/images/bg/bg-1.jpg) no-repeat center;
+    width: 100%;
+    background-size: cover;
+    padding: 16rem 0 9.3rem;
+}
+
+/* COUNTER  */
+.counter-section{
+    background-color: var(--primery-color);
+    padding: 2.5rem 0;
+
+}
+.counter-section p{
+    color: var(--white-color);
+    text-transform: uppercase;
+
+}
+
+.about-section{
+    background: var(--white-color);
+
+}
+.about-section .card,
+.about-section .card-img{
+    border-radius: 0.625rem;
+}
+.about-section .text-sec{
+    padding-left: 2rem;
+}
+
+.food-type{
+    padding-top: 3.25rem;
+}
+.food-type ul li{
+    font-size: 1rem;
+    color: var(--text-color);
+    line-height: 32px;
+    position: relative;
+    margin-left: 30px;
+}
+.food-type ul li::before{
+    position: absolute;
+    left: -2.1875rem;
+    color: var(--primery-color);
+    font-size: 1.25rem;
+    font-family: "Font Awesome 5 Free";
+    content: "\f00c";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 900;
+}
+
+.story-section{
+    width: 100%;
+    height: 28.12rem;
+    background: url("\\images\\bg\\bg-2.jpg") no-repeat center;
+    background-size: cover;
+    padding-top: 100px;
+    text-align: center;
+}
+.story-section h2{
+    color: var(--primery-color);
+}
+
+.explore-food .card{
+    border: none;
+    background-color: transparent;
+    border-radius: 0.937rem;
+}
+.explore-food .card img{
+    border-radius: 0.937rem;
+    object-fit: cover;
+}
+
+.explore-food .card span{
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primery-color);
+    padding-bottom:1rem ;
+    border-bottom: 0.0624rem solid var(--white-color);
+
+}
+
+.explore-food .card span del{
+    color: var(--text-gray);
+    margin-left: 0.5rem;
+    
+}
+
+
+.testemonial-section{
+    background-color: var(--primery-color);
+    h2{
+        color: var(--white-color);
+    }
+}
+.testemonial-section .carousel-item{
+    margin-top: 3rem;
+    padding: 10rem 3.12rem;
+    background-color: var(--white-color);
+    text-align: center;
+    border-radius: 0.937rem;
+}
+.testemonial-section  .carousel-caption img{
+    max-width: 5rem;
+    border-radius: 50%;
+    padding: 0.312rem;
+}
+.testemonial-section .carousel-item .carousel-caption p{
+    font-size: 1.312rem;
+    line-height: 2.03rem;
+    padding: 0 11% 0.625rem;
+    color: var(--black-color);
+
+}
+.testemonial-section .carousel-indicators{
+    bottom: -2.81rem;
+}
+.testemonial-section .carousel-indicators button{
+    width: 15px;
+    height: 15px;
+    outline: none;
+    border-radius: 50%;
+    border: none;
+    opacity: 0.2;
+    margin-left: 1rem;
+}
+.testemonial-section .carousel-indicators button.active{    
+    opacity: 1;
+}
+
+
+.faq h4{
+    color: var(--primery-color);
+    font-size: 1.875rem;
+    margin-right:0.3125rem ;
+}
+
+
+.book-food{
+    width: 100%;
+    background: url(images/bg/bg-3.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0 71.912px;
+    padding: 4.375rem;
+
+}
+
+.newslettar{
+    width: 55%;
+    margin: 0 auto ;
+
+}
+.newslettar .form-control{
+    height: 3.225rem;
+    padding: 0 1.25rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    background: transparent;
+    border: 0.187rem solid var(--text-gray);
+    color: var(--black-color);
+
+}
+
+.newslettar .form-control:hover,
+.newslettar .form-control:focus{
+    outline: none;
+    box-shadow: none;
+    border-color: var(--primery-color);
+}
+
+.footer{
+    background: var(--primery-color);
+}
+.footer .footer-link{
+    font-size: 1rem;
+    color: var(--white-color);
+    padding: 0 1.875rem;
+
+}
+.footer .footer-link:hover{
+    color: var(--white-color) !important;
+}
+
+.footer a i{
+    font-size: 1.5rem;
+    color : var(--white-color);
+    padding: 0 1rem;
+}
