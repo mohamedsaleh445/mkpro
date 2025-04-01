@@ -1,0 +1,256 @@
+<!doctype html>
+<html class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <title>Medical page</title>
+  <link rel="icon" href="/medical site/new logo.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+  integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
+  <link href="../dist/css/output.css" rel="stylesheet">
+</head>
+<body class="font-poppins">
+
+
+<!-- header -->
+ <header id="header" class="sticky top-0 bg-bookmark-white z-20">
+    <nav class="container flex items-center py-4 mt-4 sm:mt-12">
+        <div class="py-1 ">
+            <img src="../imgs/logo-bookmark.svg" class="" alt="">
+        </div>
+        <ul class="hidden sm:flex flex-1 justify-end items-center gap-12 text-bookmark-blue uppercase text-xs">
+            <li class="cursor-pointer "><a href="#features" class="hover:text-bookmark-red">features</a></li>
+            <li class="cursor-pointer "><a href="#download" class="hover:text-bookmark-red">download</a></li>
+            <li class="cursor-pointer "><a href="#faq" class="hover:text-bookmark-red">FAQ</a></li>
+            <li class="cursor-pointer "><a href="#contact" class="hover:text-bookmark-red">contact</a></li>
+            <button type="button" class="bg-bookmark-red text-white rounded-md px-7 py-3 uppercase">login</button>
+        </ul>
+        <div class="flex sm:hidden flex-1 justify-end">
+            <i id="toggle-click" class="text-xl cursor-pointer fa fa-bars"></i>
+        </div>
+
+    </nav>
+    <div id="toggle" class="hidden  origin-top w-full items-center bg-bookmark-purple duration-1000  rounded-b-lg ">
+        <ul class=" flex flex-col  items-center py-5 justify-center gap-6 text-bookmark-blue uppercase text-md">
+            <li class="cursor-pointer "><a href="#features" class="hover:text-bookmark-red">features</a></li>
+            <li class="cursor-pointer "><a href="#download" class="hover:text-bookmark-red">download</a></li>
+            <li class="cursor-pointer "><a href="#faq" class="hover:text-bookmark-red">FAQ</a></li>
+            <li class="cursor-pointer "><a href="#contact" class="hover:text-bookmark-red">contact</a></li>
+            <button type="button" class="bg-bookmark-red text-white rounded-md px-7 py-3 uppercase">login</button>
+        </ul>
+    </div>
+ </header>
+
+<!-- hero -->
+ <section id="head" class="relative">
+    <div class="container flex flex-col-reverse lg:flex-row items-center gap-12 mt-14 lg:mt-24 ">
+        <div class="flex flex-1 flex-col items-center lg:items-start ">
+            <h2 class="text-bookmark-blue text-2xl md:text-4xl lg:text-5xl text-center lg:text-left mg-6"> A simple Bootmark Manger</h2>
+            <p class="text-bookmark-grey text-lg text-center lg:text-left mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur fugit itaque hic blanditiis eius voluptas, perspiciatis assumenda sint explicabo aperiam facilis minima!</p>
+            <div class="flex justify-center flex-wrap gap-6">
+                <button type="button" class="btn btn-purple hover:bg-bookmark-white hover:text-black">Get it in Chrome </button>
+                <button type="button" class="btn btn-white hover:bg-bookmark-purple hover:text-white">Get it in Firfox </button>
+            </div>
+        </div>
+        <div class="flex flex-1 justify-center mb-10 md-mb-16 lg:mb-0 z-10">
+            <img src="../imgs/hero-bg.png" class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full" alt="">
+        </div>
+        <div class="hidden md:block overflow-hidden bg-bookmark-purple rounded-l-full absolute h-80 w-2/4 top-32 -right-20 "></div>
+    </div>
+ </section>
+
+ <!-- features -->
+  <section id="features" class="bg-bookmark-white py-20 mt-20 lg:mt-60">
+    <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
+        <h1 class="text-3xl text-center text-bookmark-blue ">Features</h1>
+        <p class="text-bookmark-grey mt-4 text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis voluptates obcaecati officia quos vero consequuntur!</p>
+    </div>
+    <!-- feature1 -->
+    <div class="relative mt-20 lg:mt-24">
+        <div class="container flex flex-col lg:flex-row justify-center gap-x-24">
+            <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+                <img src="../imgs/illustration-features-tab-1.png"  class="w-4/6 h-4/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full">
+            </div>
+            <div class="flex flex-1 flex-col justify-center lg:items-start">
+                <h1 class="text-center text-3xl text-bookmark-blue ">Bookmark in on click feature1</h1>
+                <p class="text-bookmark-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti error reiciendis labore accusantium doloremque sapiente? Id similique numquam ipsa quos.</p>
+                <button type="button" class="btn btn-purple hover:bg-bookmark-white hover:text-black">For More Info </button>
+            </div>
+        </div>
+        <div class="hidden md:block overflow-hidden bg-bookmark-purple rounded-r-full absolute h-80 w-2/4 -bottom-20 -left-20 "></div>
+
+    </div>
+    <!-- feature2 -->
+    <div class="relative mt-20 lg:mt-24">
+        <div class="container flex flex-col lg:flex-row-reverse justify-center gap-x-24">
+            <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+                <img src="../imgs/illustration-features-tab-2.png"  class="w-4/6 h-4/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full">
+            </div>
+            <div class="flex flex-1 flex-col justify-center lg:items-start">
+                <h1 class="text-center text-3xl text-bookmark-blue ">Bookmark in on click feature2</h1>
+                <p class="text-bookmark-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti error reiciendis labore accusantium doloremque sapiente? Id similique numquam ipsa quos.</p>
+                <button type="button" class="btn btn-purple hover:bg-bookmark-white hover:text-black">For More Info </button>
+            </div>
+        </div>
+        <div class="hidden md:block overflow-hidden bg-bookmark-purple rounded-l-full absolute h-80 w-2/4 -bottom-20 -right-20 "></div>
+
+    </div>
+    <!-- feature3 -->
+    <div class="relative mt-20 lg:mt-24">
+        <div class="container flex flex-col lg:flex-row justify-center gap-x-24">
+            <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+                <img src="../imgs/illustration-features-tab-3.png"  class="w-4/6 h-4/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full">
+            </div>
+            <div class="flex flex-1 flex-col justify-center lg:items-start">
+                <h1 class="text-center text-3xl text-bookmark-blue ">Bookmark in on click feature3</h1>
+                <p class="text-bookmark-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti error reiciendis labore accusantium doloremque sapiente? Id similique numquam ipsa quos.</p>
+                <button type="button" class="btn btn-purple hover:bg-bookmark-white hover:text-black">For More Info </button>
+            </div>
+        </div>
+        <div class="hidden md:block overflow-hidden bg-bookmark-purple rounded-r-full absolute h-80 w-2/4 -bottom-20 -left-20 "></div>
+
+    </div>
+  </section>
+
+<!-- download -->
+ <section id="download" class="py-20 mt-20 ">
+    <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
+        <h1 class="text-3xl text-center text-bookmark-blue ">Download the extention</h1>
+        <p class="text-bookmark-grey mt-4 text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis voluptates obcaecati officia quos vero consequuntur!</p>
+    </div>
+    <!-- cards -->
+    <div class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 max-w-screen-lg mt-16 ">
+        <!-- card1 -->
+         <div class="flex flex-col rounded-md shadow-md lg:mb-16">
+            <div class="p-6 flex flex-col items-center">
+                <img src="../imgs/logo-chrome.svg"  alt="">
+                <h3 class="mt-5 mb-5 text-bookmark-blue text-lg">Add to Chrome</h3>
+                <p class="text-bookmark-grey font-light mb-2">Lorem ipsum dolor sit amet.</p>
+            </div>
+            <hr class="border-b border-bookmark-white">
+            <div class="flex  p-6">
+                <button type="button" class="btn btn-purple hover:bg-bookmark-white flex-1 hover:text-black">Download The Extention </button>
+            </div>
+         </div>
+        <!-- card2 -->
+         <div class="flex flex-col rounded-md shadow-md lg:my-8 ">
+            <div class="p-6 flex flex-col items-center">
+                <img src="../imgs/logo-firefox.svg"  alt="">
+                <h3 class="mt-5 mb-5 text-bookmark-blue text-lg">Add to Firfox</h3>
+                <p class="text-bookmark-grey font-light mb-2">Lorem ipsum dolor sit amet.</p>
+            </div>
+            <hr class="border-b border-bookmark-white">
+            <div class="flex  p-6">
+                <button type="button" class="btn btn-purple hover:bg-bookmark-white flex-1 hover:text-black">Download The Extention </button>
+            </div>
+         </div>
+        <!-- card3 -->
+         <div class="flex flex-col rounded-md shadow-md lg:mt-16">
+            <div class="p-6 flex flex-col items-center">
+                <img src="../imgs/logo-opera.svg"  alt="">
+                <h3 class="mt-5 mb-5 text-bookmark-blue text-lg">Add to opera</h3>
+                <p class="text-bookmark-grey font-light mb-2">Lorem ipsum dolor sit amet.</p>
+            </div>
+            <hr class="border-b border-bookmark-white">
+            <div class="flex  p-6">
+                <button type="button" class="btn btn-purple hover:bg-bookmark-white flex-1 hover:text-black">Download The Extention </button>
+            </div>
+         </div>
+    </div>
+ </section>
+
+ <!-- faq -->
+  <section id="faq" class="bg-bookmark-white py-20 ">
+    <div class="container">
+        <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
+            <h1 class="text-3xl text-center text-bookmark-blue ">FAQ</h1>
+            <p class="text-bookmark-grey mt-4 text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis voluptates obcaecati officia quos vero consequuntur!</p>
+        </div>
+        <!-- faq items -->
+         <div class="flex flex-col sm:w-3/4 lg:w-5/12 mt-12 mx-auto"> 
+            <div class="flex flex-col">
+                <div class="border-b py-4 flex items-center justify-between  ">
+                    <span class="">What is Bootmark?</span>
+                    <i id="" class="faq fa fa-chevron-down cursor-pointer text-bookmark-purple"></i>
+                </div>
+                <p id="" class="dropdwon-faq hidden">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat laborum, quia doloremque recusandae ex placeat, officia consectetur quisquam quasi vitae tenetur magni fuga!</p>
+            </div>
+            <div class="flex flex-col">
+                <div class="border-b py-4 flex items-center justify-between  ">
+                    <span class="">How much does it coast?</span>
+                    <i id="" class="faq fa fa-chevron-down cursor-pointer text-bookmark-purple"></i>
+                </div>
+                <p id="" class="dropdwon-faq hidden">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat laborum, quia doloremque recusandae ex placeat, officia consectetur quisquam quasi vitae tenetur magni fuga!</p>
+            </div>
+            <div class="flex flex-col">
+                <div class="border-b py-4 flex items-center justify-between  ">
+                    <span class="">How can i download Bootmark?</span>
+                    <i id="" class="faq fa fa-chevron-down cursor-pointer text-bookmark-purple"></i>
+                </div>
+                <p id="" class="dropdwon-faq hidden">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat laborum, quia doloremque recusandae ex placeat, officia consectetur quisquam quasi vitae tenetur magni fuga!</p>
+            </div>
+            <!-- <div class="flex items-center border-b py-4">
+                <span class="flex-1">How can i download Bootmark?</span>
+                <i class="fa fa-chevron-down text-bookmark-purple"></i>
+            </div>
+            <div class="flex items-center border-b py-4">
+                <span class="flex-1">How much does it coast?</span>
+                <i class="fa fa-chevron-down text-bookmark-purple"></i>
+            </div> -->
+            <button type="button" class="btn self-center mt-12 btn-purple hover:bg-bookmark-white flex-1 hover:text-black">More Info </button>
+         </div>
+
+    </div>
+
+  </section>
+
+  <!-- contact -->
+   <section id="contact" class="bg-bookmark-purple text-white py-20">
+    <div class="container">
+        <div class="sm:w-3/4 lg:w-2/4 mx-auto ">
+            <p class="font-light uppercase text-center mb-8 ">35,000+ ALREADY JOINED</p>
+            <h1 class="text-3xl text-center">Stay up-to-date with what we’re doing</h1>
+            <div class="flex flex-col sm:flex-row gap-6 mt-8">
+                <input type="text" placeholder="Enter Your Email" class="
+                focus:outline-none flex-1 px-2 py-3 rounded-md text-black ">
+                <button type="button" class="btn bg-bookmark-red hover:bg-bookmark-white hover:text-black">Contact Us </button>
+            </div>
+        </div>
+
+    </div>
+   </section>
+
+<footer class="bg-bookmark-blue py-8">
+    <div class="container flex flex-col md:flex-row items-center">
+        <div class="flex flex-1 flex-wrap items-center justify-center md:justify-start gap-12">
+            <img src="../imgs/logo-bookmark-white.png" alt="">
+            <ul class="flex text-white uppercase gap-12 text-xs">
+                <li class="cursor-pointer ">features</li>
+                <li class="cursor-pointer ">pricing</li>
+                <li class="cursor-pointer ">contact</li>
+            </ul>
+
+        </div>
+        <div class="flex  gap-10 mt-12 md:mt-0">
+            <i class="fab fa-instagram text-white text-2xl "></i>
+            <i class="fab fa-facebook-square text-white text-2xl "></i>
+            <i class="fab fa-linkedin text-white text-2xl "></i>
+            <i class="fab fa-tiktok text-white text-2xl "></i>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+
+  <script src="../dist/js/main.js"></script>
+</body>
+</html>
