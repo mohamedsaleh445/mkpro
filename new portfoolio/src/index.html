@@ -4,9 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>landing page</title>
-  <link rel="icon" href="/new logo.png">
+  <link rel="icon" href="../new logo.png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
   <link href="../dist/css/output.css" rel="stylesheet">
+  <link rel="stylesheet" href="../src/input.css">
 </head>
 <body class="">
     <!-- nabbar -->
@@ -21,6 +22,18 @@
                 <a class="hover:text-darkGrayishBlue" href="#community">Community</a>
             </div>
             <a href="" class=" hidden md:block p-3 px-6 pt-2 text-white bg-brightRed rounded-full hover:bg-brightRedLight">Get Started</a>
+            <button id="menu" class="flex md:hidden items-center px-4  md:flex-row  flex-col gap-0 "> 
+                <span class="font-bold text-4xl -mb-8">--</span>
+                <span class="font-bold text-4xl -mb-8">--</span>
+                <span class="font-bold text-4xl ">--</span>
+            </button>
+        </div>
+        <div id="menuitem" class="  flex-col bg-white gap-4 hidden drop-shadow-md  items-center self-end  py-8 mt-10 font-bold w-full sm:self-center ">
+            <a class="hover:text-orange-600" href="#Pricing">Pricing</a>
+            <a class="hover:text-orange-600" href="#product">product</a>
+            <a class="hover:text-orange-600" href="#About">About us</a>
+            <a class="hover:text-orange-600" href="#careers">Careers</a>
+            <a class="hover:text-orange-600" href="#community">Community</a>
         </div>
      </nav>
 
@@ -135,7 +148,7 @@
 
         </section>
 
-        <section id="content" class=" mt-10 bg-brightRed ">
+        <section id="content" class=" bg-brightRed ">
             <div class="container flex flex-col md:justify-between justify-center  py-24 px-6 mx-auto md:px-12 md:flex-row ">
                 <h2 class="font-bold  text-2xl text-center text-white md:text-4xl md:max-w-xl md:text-left">Simplify how your team works today</h2>
                 <div>
@@ -198,6 +211,6 @@
 
 
 
-    <script src="/dist/js/main.js"></script>
+    <script src="../dist/js/main.js"></script>
 </body>
 </html>
