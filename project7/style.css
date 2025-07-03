@@ -39,6 +39,10 @@ ul{list-style: none;}
     background-color: #333;
     bottom: -30px;
     width: 120px;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
 }
 .main-heading h2::after{
     content: "";
@@ -51,6 +55,14 @@ ul{list-style: none;}
     border: 2px solid #333;
     bottom: -38px;
     background-color: white;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
 }
 .main-heading p{
 width: 550px;
